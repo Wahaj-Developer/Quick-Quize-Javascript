@@ -45,4 +45,12 @@
     cursor: pointer;
 }
 
+#submit:hover {
+    background-color: rgb(34, 6, 53);
+}
+
+.box {
+    box-shadow: 0px -1px 1px grey;
+    width: 100%;
+}
 
