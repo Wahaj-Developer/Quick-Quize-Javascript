@@ -6,3 +6,11 @@ const quizData = [{
     d: "JavaScript",
     correct: "d",
 },
+{
+    question: "What does HTML stand for?",
+    a: "Hypertext Markup Language",
+    b: "Cascading Style Sheet",
+    c: "Jason Object Notation",
+    d: "Helicopters Terminals Motorboats Lamborginis",
+    correct: "a",
+},
