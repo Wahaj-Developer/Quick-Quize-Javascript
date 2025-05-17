@@ -41,3 +41,11 @@ const loadQuestion = () => {
 if (total === index) {
     return quizEnd()
 }
+reset()
+const data = quizData[index]
+questionBox.innerHTML = `${index + 1}) ${data.question}`
+allInputs[0].nextElementSibling.innerText = data.a
+allInputs[1].nextElementSibling.innerText = data.b
+allInputs[2].nextElementSibling.innerText = data.c
+allInputs[3].nextElementSibling.innerText = data.d
+}
