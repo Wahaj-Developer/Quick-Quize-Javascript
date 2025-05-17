@@ -75,3 +75,10 @@ allInputs.forEach(
 )
 return ans;
 }
+const reset = () => {
+allInputs.forEach(
+    (inputEl) => {
+        inputEl.checked = false;
+    }
+)
+}
