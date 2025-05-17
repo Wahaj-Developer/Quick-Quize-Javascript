@@ -63,3 +63,15 @@ function() {
     loadQuestion()
 }
 )
+
+const getAnswer = () => {
+let ans;
+allInputs.forEach(
+    (inputEl) => {
+        if (inputEl.checked) {
+            ans = inputEl.value;
+        }
+    }
+)
+return ans;
+}
